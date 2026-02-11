@@ -1,0 +1,24 @@
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
+import Comp1 from './components/Comp1.jsx'
+import Comp3 from './components/Comp3.jsx'
+import Inline from './components/Inline.jsx'
+import External from './components/External.jsx'
+import Global from './components/Global.jsx'
+import FontAwesome from './components/FontAwesome.jsx'
+import BootStrap from './components/BootStrap.jsx'
+import State from './components/State.jsx'
+import Parent1 from "./components/Parent1.jsx"
+import Parent2 from './components/Parent2.jsx'
+import Parent3 from './components/Parent3.jsx'
+import Parent4 from "./components/Parent4.jsx"
+import Parent5 from './components/Parent5.jsx'
+import GetEx1 from './components/GetEx1.jsx'
+import GetEx2 from './components/GetEx2.jsx'
+import GetEx3 from './components/GetEx3.jsx'
+import GetEx4 from './components/GetEx4.jsx'
+createRoot(document.getElementById('root')).render(
+   <GetEx4></GetEx4>,
+)
