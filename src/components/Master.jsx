@@ -1,7 +1,7 @@
 import {BrowserRouter, Link, Route, Routes} from "react-router-dom";
 import Laptops from "./Laptops.jsx";
 import Mobiles from "./Mobiles.jsx";
-import Watches from "../../Watches.jsx";
+import Watches from "./Watches.jsx";
 const Master = ()=>{
     return(
         <>
