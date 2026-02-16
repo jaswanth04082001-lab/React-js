@@ -23,6 +23,8 @@ import PostEx from './components/PostEX.jsx'
 import PutEx from './components/PutEx.jsx'
 import DeleteEx from './components/DeleteEX.jsx'
 import DeleteEx1 from './components/DeleteEx1.jsx'
+import Events from './components/Events.jsx'
+import Master from './components/Master.jsx'
 createRoot(document.getElementById('root')).render(
-   <DeleteEx1></DeleteEx1>,
+   <Master></Master>,
 )
